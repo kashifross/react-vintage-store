@@ -1,0 +1,50 @@
+:root {
+  --roseGold: #bd8c7d;
+  --softGold: #d1bfa7;
+  --mainWhite: #f3f3f3;
+  --silver: #8e8e90;
+  --onyx: #49494b;
+  --mainYellow: #ffa400;
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--onyx) !important;
+}
+
+.text-title {
+  font-family: 'Catamaran', sans-serif;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-darker {
+  color: var(--roseGold);
+}
+
+.text-brighter {
+  color: var(--softGold)
+}
+
+.btn-black {
+  backgorund: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--onyx);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--onyx) !important;
+}
+
+.btn-black:hover {
+  background: var(--onyx) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
